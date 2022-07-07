@@ -1,59 +1,87 @@
-/* Adobe Garamond Pro (Reg, Bold + Italics) */
 @import url("https://use.typekit.net/tyo1mgs.css");
+@import url("https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
-    margin: auto;
+  margin: auto;
 }
 
 html,
 body {
-    background-color: #111;
-    font-family: adobe-garamond-pro, serif;
-    font-size: 20px;
+  background-color: #eee;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 20px;
+  color: #111;
 }
 
-.container {
-    display: flex;
-    margin: 1%;
-    padding: 1%;
-    color: #eee;
-}
-
-.item {
-    flex: 1;
-    padding: 1%;
-    margin: 1%;
-    border: 0.2em;
-    color: #eee;
-}
-
-img {
-    max-width: 100%;
-}
-
-nav {
-    padding: 1%;
-    margin-left: 1%;
-    /* font-family: system-ui, Helvetica, sans-serif; */
-}
-
-a, a:visited {
-    color: #eee;
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    color: crimson;
+#darkmode {
+  border: none;
 }
 
 #caption {
-    font-style: italic;
-    text-align: center;
-    color: dimgrey;
-    font-size: smaller;
+  font-style: italic;
+  text-align: center;
+  color: dimgrey;
+  font-size: smaller;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+}
+
+.item {
+  flex: 1;
+  padding: 1%;
+  margin: 1%;
+  border: 0.2em;
+}
+
+.nav-item {
+  border: 0.2em;
+  flex: 1;
+}
+
+button {
+  font-family: Gantari, sans-serif;
+  font-size: large;
+  background-color: #111111;
+  color: #eeeeee;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  padding: 1%;
+  background-color: #111;
+  font-family: Gantari, sans-serif;
 }
 
 table {
-    width: 100%;
-    font-style: italic;
+  width: 100%;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Gantari, sans-serif;
+  font-weight: normal;
+}
+
+a,
+a:visited {
+  color: #eee;
+}
+
+a:hover,
+a:active {
+  color: crimson;
 }
