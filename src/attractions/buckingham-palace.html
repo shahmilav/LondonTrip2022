@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="../style.css" rel="stylesheet" />
+    <title>Buckingham Palace</title>
+
+    <style>
+      /* Don't delete! May seem unused, but we use it in the dark mode toggle script. */
+      .dark {
+        background-color: #111;
+        color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-item">
+          <a href="../../index.html">Home</a>
+        </div>
+        <button id="darkmode" onclick="darkToggle()">Toggle Dark Mode</button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <img alt="Buckingham Palace" src="../../images/buckingham-palace.jpg" />
+    </div>
+    <div class="container">
+      <h1>Buckingham Palace</h1>
+    </div>
+    <div class="container" style="margin: 3%">
+      <p>
+        <strong>The home of Her Majesty the Queen.</strong> For over 300 years
+        before living here, Kings lived in St. James Palace. (1531-1837). The
+        first member of the Crown to live here was Queen Victoria. The palace is
+        about 830,000 sq. ft. large, consisting of over 700 rooms.
+      </p>
+    </div>
+    <div class="item" style="margin: 3%">
+      <h2>Practical facts</h2>
+      <ul>
+        <li>
+          <strong>Timings:</strong> Daily 9:30AM-7:30PM. Last admission at
+          5:15PM
+        </li>
+        <li><strong>Estimated time needed:</strong> Tour takes ~3 hours</li>
+        <li>
+          <strong>Admission cost:</strong>
+          <table>
+            <tr>
+              <th>Age</th>
+              <th>State rooms</th>
+              <th>With Royal Day Out</th>
+            </tr>
+            <tr>
+              <td>Adult</td>
+              <td>£30.00</td>
+              <td>£55.00</td>
+            </tr>
+            <tr>
+              <td>18-24</td>
+              <td>£19.50</td>
+              <td>£36.00</td>
+            </tr>
+            <tr>
+              <td>5-17</td>
+              <td>£16.50</td>
+              <td>£30.00</td>
+            </tr>
+            <tr>
+              <td>< 5</td>
+              <td>Free</td>
+              <td>Free</td>
+            </tr>
+          </table>
+          Family offer: Save up to £25.00 when booking with
+          <a href="https://www.rct.uk/visit/buckingham-palace"></a>
+          directly.
+        </li>
+        <li>
+          <strong>Useful information:</strong>
+          <ul>
+            <li>Good idea to book in advance</li>
+            <li>There is airport-style security</li>
+            <li>Wear comfortable shoes - there is a lot of walking</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      function darkToggle() {
+        const element = document.body;
+        element.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>
