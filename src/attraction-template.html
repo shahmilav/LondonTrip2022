@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+  <link
+    crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    rel="stylesheet"
+  />
+
+  <link href="../style.css" rel="stylesheet"/>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: solid rgba(0, 0, 0, 0.15);
+      border-width: 1px 0;
+      box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -0.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    main > .container {
+      padding: 60px 15px 0;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column h-100">
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">England Trip 2022</a>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <img alt="" src="../images/windsor-castle.webp" style="width: 100%"/>
+    <h1 class="mt-5">Attraction Name</h1>
+    <p class="lead">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+      impedit molestiae nam praesentium sequi? Ab consequatur expedita
+      fugit, rem repellat repudiandae saepe sequi vel vero voluptate! Culpa
+      exercitationem quos veritatis.
+    </p>
+    <p>
+    <h3>Practical Facts</h3>
+    <ul>
+      <li><strong>Timings:</strong> time here</li>
+      <li><strong>Estimated time needed:</strong> time here</li>
+      <li><strong>Admission Cost:</strong> time here</li>
+      <table style="width: 100%;">
+        <tr style="font-style: italic;">
+          <th>Age</th>
+          <th>State rooms</th>
+          <th>With Royal Day Out</th>
+        </tr>
+        <tr>
+          <td>Adult</td>
+          <td>£30.00</td>
+          <td>£55.00</td>
+        </tr>
+        <tr>
+          <td>18-24</td>
+          <td>£19.50</td>
+          <td>£36.00</td>
+        </tr>
+        <tr>
+          <td>5-17</td>
+          <td>£16.50</td>
+          <td>£30.00</td>
+        </tr>
+        <tr>
+          <td>< 5</td>
+          <td>Free</td>
+          <td>Free</td>
+        </tr>
+      </table>
+    </ul>
+    </p>
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Milav's England Tour &middot; Aug 2022</span>
+  </div>
+</footer>
+
+<!-- DarkModeJS -->
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    const options = {
+      bottom: "32px", // default: '32px'
+      right: "32px", // default: '32px'
+      left: "unset", // default: 'unset'
+      time: "0.3s", // default: '0.3s'
+      mixColor: "#fff", // default: '#fff'
+      backgroundColor: "#eee", // default: '#fff'
+      buttonColorDark: "#111", // default: '#100f2c'
+      buttonColorLight: "#eee", // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: "🌓", // default: ''
+      autoMatchOsTheme: true, // default: true
+    };
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+  }
+
+  window.addEventListener("load", addDarkmodeWidget);
+</script>
+
+<script
+  crossorigin="anonymous"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+></script>
+</body>
+</html>
