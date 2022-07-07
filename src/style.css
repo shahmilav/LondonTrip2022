@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/tyo1mgs.css");
+
+* {
+  margin: auto;
+}
+
+html,
+body {
+  background-color: #111;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  color: #eee;
+}
+
+.item {
+  flex: 1;
+  padding: 1%;
+  margin: 1%;
+  border: 0.2em;
+  color: #eee;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+ padding: 1%;
+ margin-left: 1%; 
+ /* font-family: system-ui, Helvetica, sans-serif; */
+}
+
+a, a:visited {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: crimson;
+}
