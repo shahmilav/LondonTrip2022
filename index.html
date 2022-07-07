@@ -1,29 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>England Trip 2022</title>
-  <link href="./src/style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-<div class="container">
-  <h1>England Trip 2022</h1>
-</div>
-<div class="item">
-  <img alt="" src="images/windsor-castle.webp"/>
-  <p id="caption">Windsor Castle</p>
-</div>
-<div class="container">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
 
-  <div class="item">
-    <h2>Places to Visit</h2>
-    <ul>
-      <li><a href="./src/attraction-template.html">Template</a></li>
-      <li><a href="./src/attractions/buckingham-palace.html">Buckingham Palace</a></li>
-    </ul>
-  </div>
-</div>
-</body>
+    <title>England Trip 2022</title>
+
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+        <a
+          class="d-flex align-items-center text-dark text-decoration-none"
+          href="/"
+        >
+          <span class="fs-4">England Trip 2022</span>
+        </a>
+      </header>
+
+      <main>
+        <h1>Milav's 2022 England Tour</h1>
+        <p class="fs-5 col-md-8">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+          quod! Nostrum earum, nisi ea odit, architecto voluptate ullam saepe
+          repellat dolores, atque iure obcaecati. Atque sed perspiciatis quos
+          dolorum cumque.
+        </p>
+
+        <hr class="col-3 col-md-2 mb-5" />
+
+        <div class="row g-5">
+          <div class="col-md-6">
+            <h2>London</h2>
+            <p>Attractions in London</p>
+            <ul class="icon-list ps-0">
+              <li class="d-flex align-items-start mb-1">
+                <a href="./src/attraction-template.html">Attraction Template</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h2>Guides</h2>
+            <p>
+              Read more detailed instructions and documentation on using or
+              contributing to Bootstrap.
+            </p>
+            <ul class="icon-list ps-0">
+              <li class="d-flex align-items-start mb-1">
+                <a href="../getting-started/introduction/"
+                  >Bootstrap quick start guide</a
+                >
+              </li>
+              <li class="d-flex align-items-start mb-1">
+                <a href="../getting-started/webpack/"
+                  >Bootstrap Webpack guide</a
+                >
+              </li>
+              <li class="d-flex align-items-start mb-1">
+                <a href="../getting-started/parcel/">Bootstrap Parcel guide</a>
+              </li>
+              <li class="d-flex align-items-start mb-1">
+                <a href="../getting-started/contribute/"
+                  >Contributing to Bootstrap</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <footer class="pt-5 my-5 text-muted border-top">
+        Milav's England Tour &middot; Aug 2022
+      </footer>
+    </div>
+
+    <!-- DarkModeJS -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        const options = {
+          bottom: "32px", // default: '32px'
+          right: "32px", // default: '32px'
+          left: "unset", // default: 'unset'
+          time: "0.3s", // default: '0.3s'
+          mixColor: "#fff", // default: '#fff'
+          backgroundColor: "#eee", // default: '#fff'
+          buttonColorDark: "#111", // default: '#100f2c'
+          buttonColorLight: "#eee", // default: '#fff'
+          saveInCookies: false, // default: true,
+          label: "🌓", // default: ''
+          autoMatchOsTheme: true, // default: true
+        };
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+      }
+
+      window.addEventListener("load", addDarkmodeWidget);
+    </script>
+
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
 </html>
